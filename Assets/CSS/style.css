@@ -1,0 +1,44 @@
+header{
+    background: #4aaaa5;
+    width: 15%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 10;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-bio{
+    background: white;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#bio-image{
+    float: left;
+    margin-right: 20px;
+}
+
+body{
+    background: #666666;
+}
+
+#contact-info{
+    background-color: white;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
