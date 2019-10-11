@@ -1,15 +1,22 @@
 header{
+    box-sizing: border-box;
     background: #4aaaa5;
     width: 15%;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 10;
+    float: left;
+    padding-top: 15px;
+    height: 100%;
+
 }
 
 h2{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: none none solid none;
+    border-color: #E0DBDB;
 }
 
 #main-bio{
@@ -22,7 +29,8 @@ h2{
 p{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 95%;
+    font-size: 18;
 }
 
 #bio-image{
@@ -31,7 +39,7 @@ p{
 }
 
 body{
-    background: #666666;
+    background: #ededed;
 }
 
 #contact-info{
@@ -41,4 +49,53 @@ body{
 .container{
     width: 960px;
     margin: auto;
+}
+
+.topofpage{
+    width: 100%;
+    background: #ffffff;
+    height: 75px;
+}
+
+input{
+    width: 100%;
+}
+
+.navigation{
+    float: right;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17;
+    margin-top: 25;
+    word-spacing: 40px;
+    /* margin-right: 152px; */
+}
+
+#indexstyle:hover{
+    background: #4aaaa5;
+    color: #ffffff
+}
+
+#portfoliostyle:hover{
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+#contactstyle:hover{
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.logo{
+    /* position: absolute; */
+    /* top: 50; */
+    /* right: 50; */
+    margin-top: 25px;
+    margin-left: 25px;
+    float: right;
 }
